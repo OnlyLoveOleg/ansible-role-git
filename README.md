@@ -1,6 +1,6 @@
 # git
 
-Ansible role to install recent versions on git client
+Ansible role to install recent versions of git client
 
 
 ##Role Variables
