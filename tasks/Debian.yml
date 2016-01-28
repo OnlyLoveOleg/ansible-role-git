@@ -1,0 +1,11 @@
+---
+- name: Debian | add ppa:git-core/ppa repository
+  apt_repository:
+   repo='ppa:git-core/ppa'
+   update_cache=yes
+
+
+- name: Debian | install git
+  apt:
+   name=git
+   state=latest
