@@ -1,0 +1,11 @@
+---
+- name: Ubuntu-14 | add ppa:git-core/ppa repository
+  apt_repository:
+   repo='ppa:git-core/ppa'
+   update_cache=yes
+
+
+- name: Ubuntu-14 | install git
+  apt:
+   name=git
+   state=latest
